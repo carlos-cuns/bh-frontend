@@ -1,29 +1,53 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #002366;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fbfbfb;
+    margin: 0;
+    padding: 0;
 }
-#one{
-    margin-bottom: 30px;
-
+body{
+    background-color: #0f4471;
+}
+.topbar{
+    width: 100%;
+    background-color: #fc3c3c;
+    height: var(--desktop-nav-height);
+    position: fixed;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.topbar-under{
+    height: 70px;
+    background-color: #fc3c3c;
+}
+.section{
+    background-color: #1a2849;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin: 40px auto;
+    width: 95%;
+    padding-bottom: 100px;
 }
 .title{
-    padding-top: 5px;
-    padding-left: 70px;
-    color:#ff4b44;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    color:#fc3c3c;
     font-style: oblique;
     font-size: 35px;
-    text-shadow: 1px 1px 2px #fff;
+    text-shadow: 0px 0px 3px #fff;
 }
 .description{
+    margin: 0;
     font-style: italic;
-    padding-left: 0px;
 }
 h1,h2{
-    background-color: #0f52ba;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #083358;
     color: #fbfbfb;
     text-align: center;
     margin-bottom: 100px;
+    margin-top: 0px;
+    padding: 10px;;
 }
 h1{
     font-size: 40px;
@@ -35,12 +59,13 @@ img{
     float: right;
     margin: 20px;
     max-width: 100%;
-    border: 5px solid #0f52ba;
+    border: 10px solid #0f4471;
     border-radius: 50%;
 }
 .one-left{
-    width: 49%;
+    width: 44%;
     display: inline-block;
+    padding-right: 5%;
 }
 .one-right{
     vertical-align: top;
@@ -50,11 +75,12 @@ img{
     font-size: 20px;
 }
 .text{
-    margin-top: 150px;
+    margin-top: 110px;
+    margin-bottom: 100px;
 }
 button{
     display: inline-block;
-    background-color: #ff4b44;
+    background-color: #fc3c3c;
     color: #ffffff;
     padding-left: 50px;
     padding-right: 50px;
@@ -77,9 +103,10 @@ button:hover{
     text-align: center;
 }
 .buttons{
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: #1a2849;
     text-align: center;
-    margin-bottom: 200px;
-    margin-top: 200px;
 }
 table{
     width: 100%;
@@ -106,12 +133,6 @@ td:hover{
     opacity: .8;
     cursor: pointer;
 }
-#two{
-    padding-bottom: 100px;
-}
-#three{
-    padding-bottom: 100px;
-}
 .fa-regular{
-    background-color: #ff4b44;
+    background-color: #fc3c3c;
 }
