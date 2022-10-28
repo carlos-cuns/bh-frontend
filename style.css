@@ -85,6 +85,8 @@ img{
     padding-right: 30px;
     padding-bottom: 12px;
     padding-top: 12px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 button:hover{
     opacity: .8;
@@ -146,6 +148,29 @@ td:hover{
     opacity: .8;
     cursor: pointer;
 }
+.setbody{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputfields{
+    display: grid;
+    height: 80%;
+    margin: auto;
+}
+.inputfields textarea{
+    width: 800px;
+    border-radius: 5px;
+    font-family: inherit;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.setbuttons{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
 .flash_body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -161,6 +186,7 @@ td:hover{
     margin: 0 auto;
     border: 2px solid rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+    word-wrap: break-word;
 }
 .cardtext{
     font-size: x-large;
